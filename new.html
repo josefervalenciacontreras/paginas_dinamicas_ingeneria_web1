@@ -34,17 +34,21 @@
     <div class="mb-3">
       <label for="formGroupExampleInput" class="form-label">Nombre</label></br>
       <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre restaurante">
+      <span id="nombre-requerido" class="mensaje-error"></span>
     </div>
     <div class="mb-3">
       <label for="formGroupExampleInput2" class="form-label">Descripción</label></br>
       <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Descripción del restaurante">
+      <span id="descripcion-requerido" class="mensaje-error"></span>
     </div>
     <div class="mb-3">
       <label for="formGroupExampleInput2" class="form-label">Imagen URL</label></br>
       <input type="text" class="form-control" id="formGroupExampleInput3" placeholder="URL de la imagen">
+      <span id="imagen-requerido" class="mensaje-error"></span>
     </div>
-    <button type="button" class="btn btn-primary">Guardar</button>
+    <button type="button" onclick="validar()" class="btn btn-primary">Guardar</button>
   </div>
+  <script src="./search.js"></script>
 </body>
 
 </html>

@@ -22,10 +22,10 @@ a{
 
 
 #menu a{
-    color: gray;
-    letter-spacing: 0.1rem;
-    transition: all 0.3s linear;
-    
+  color: gray;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s linear;
+  
 }
 
 #menu a:hover{
@@ -82,4 +82,9 @@ a{
   
   #myUL li a:hover:not(.header) {
     background-color: #eee;
+  }
+
+  .mensaje-error{
+    color: red;
+    font-size: 0.875rem;
   }

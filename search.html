@@ -28,20 +28,21 @@
         </ul>
       </nav>
     </div>
-    <label for="formGroupExampleInput" class="form-label">Escribe un texto</label></br>
-    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Buscar por nombre de restaurante"
+    <label for="myInput" class="form-label">Escribe un texto</label></br>
+    <input type="text" id="myInput" placeholder="Buscar por nombre de restaurante"
       title="Type in a name">
     <button type="button" class="btn btn-primary" onclick="myFunction()">Buscar</button>
     <div class="row">
-      <div class="col" id="card-1">
+      <div class="col">
         <img class="figure-img img-fluid rounded" src="./imagenes/pacifico_mar.JPG" alt="pacifico mar">
         <div class="descripcion">
           <h4>Pacífico Mar</h4>
           <p>Av. 85 Nro. 45-85 Barranquilla</p>
           <h6>Deliciosa comida de mar</h6>
+          <span class="is-hidden">pacifico</span>
         </div>
       </div>
-      <div class="col" id="card-2">
+      <div class="col">
         <img class="figure-img img-fluid rounded" src="./imagenes/retaurante_italiano.JPG" alt="comida italiana">
         <div class="descripcion">
           <h4>Italiano 65</h4>
@@ -49,7 +50,7 @@
           <h6>Deliciosa comida italiana</h6>
         </div>
       </div>
-      <div class="col" id="card-3">
+      <div class="col">
         <img class="figure-img img-fluid rounded" src="./imagenes/comidas_rapidas.JPG" alt="comida rápidas">
         <div class="descripcion">
           <h4>Fritos y Más</h4>
@@ -57,7 +58,7 @@
           <h6>Comida rápida</h6>
         </div>
       </div>
-      <div class="col" id="card-4">
+      <div class="col">
         <img class="figure-img img-fluid rounded" src="./imagenes/pollo_frito.JPG" alt="pollo frito">
         <div class="descripcion">
           <h4>Pollo Frito</h4>
@@ -67,7 +68,11 @@
       </div>
     </div>
   </div>
-  <script src="./search.js"></script>
+  <script
+  src="https://code.jquery.com/jquery-1.12.4.js"
+  integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="./search.js"></script>
 </body>
 
 </html>
